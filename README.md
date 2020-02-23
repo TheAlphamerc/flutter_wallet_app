@@ -5,13 +5,14 @@ Smart course app is a design implementaion of [Wallet App](https://www.instagram
 
 <img src="https://instagram.fdel3-2.fna.fbcdn.net/v/t51.2885-15/e35/87413583_202606307464445_5220458549564035004_n.jpg?_nc_ht=instagram.fdel3-2.fna.fbcdn.net&_nc_cat=105&_nc_ohc=DyFDV5NauVUAX_py7Nc&oh=31e2235a62f91ab1a1b68b83f8d7dc88&oe=5E873140"  /> 
 
-## Screenshots
+## Android Screenshots
 
- Android HomePage              |  Android Transfer page 
+  HomePage              |   Transfer money page 
 :-------------------------:|:-------------------------:
 ![](https://github.com/TheAlphamerc/flutter_wallet_app/blob/master/screenshots/screenshot_1.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_wallet_app/blob/master/screenshots/screenshot_2.jpg?raw=true)
 
-iOS HomePage              |  iOS Transfer page 
+## iOS Screenshots
+ HomePage              |  Transfer money page 
 :-------------------------:|:-------------------------:
 ![](https://github.com/TheAlphamerc/flutter_wallet_app/blob/master/screenshots/screenshot_ios_1.png?raw=true)|![](https://github.com/TheAlphamerc/flutter_wallet_app/blob/master/screenshots/screenshot_ios_2.png?raw=true)
 
