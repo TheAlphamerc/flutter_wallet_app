@@ -1,6 +1,32 @@
-# flutter_wallet_app
+## flutter_wallet_app ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fthealphamerc) [![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_wallet_app?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_wallet_app) ![GitHub forks](https://img.shields.io/github/forks/TheAlphamerc/flutter_wallet_app?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Thealphamerc/flutter_wallet_app) ![Dart CI](https://github.com/TheAlphamerc/flutter_wallet_app/workflows/Dart%20CI/badge.svg) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Thealphamerc/flutter_wallet_app) 
 
-A new Flutter project.
+Smart course app is a design implementaion of [Wallet App](https://www.instagram.com/p/B81RaSeg7TJ/) designed by [Muhammad Abdull ](https://www.instagram.com/abdulldsgnr/)
+
+
+<img src="https://instagram.fdel3-2.fna.fbcdn.net/v/t51.2885-15/e35/87413583_202606307464445_5220458549564035004_n.jpg?_nc_ht=instagram.fdel3-2.fna.fbcdn.net&_nc_cat=105&_nc_ohc=DyFDV5NauVUAX_py7Nc&oh=31e2235a62f91ab1a1b68b83f8d7dc88&oe=5E873140"  /> 
+
+## Screenshots
+
+ Android HomePage              |  Android Transfer page 
+:-------------------------:|:-------------------------:
+![](https://github.com/TheAlphamerc/flutter_wallet_app/blob/master/screenshots/screenshot_1.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_wallet_app/blob/master/screenshots/screenshot_2.jpg?raw=true)
+
+iOS HomePage              |  iOS Transfer page 
+:-------------------------:|:-------------------------:
+![](https://github.com/TheAlphamerc/flutter_wallet_app/blob/master/screenshots/screenshot_ios_1.png?raw=true)|![](https://github.com/TheAlphamerc/flutter_wallet_app/blob/master/screenshots/screenshot_ios_2.png?raw=true)
+
+## Pull Requests
+
+I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request.
+
+## Created & Maintained By
+
+[Sonu Sharma](https://github.com/TheAlphamerc) ([Twitter](https://www.twitter.com/TheAlphamerc)) ([Youtube](https://www.youtube.com/user/sonusharma045sonu/))
+([Insta](https://www.instagram.com/_sonu_sharma__))  ![Twitter Follow](https://img.shields.io/twitter/follow/thealphamerc?style=social)
+
+> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
+>
+> * [PayPal](https://www.paypal.me/TheAlphamerc/)
 
 ## Getting Started
 
@@ -14,3 +40,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+
+
