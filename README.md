@@ -15,6 +15,23 @@ iOS HomePage              |  iOS Transfer page
 :-------------------------:|:-------------------------:
 ![](https://github.com/TheAlphamerc/flutter_wallet_app/blob/master/screenshots/screenshot_ios_1.png?raw=true)|![](https://github.com/TheAlphamerc/flutter_wallet_app/blob/master/screenshots/screenshot_ios_2.png?raw=true)
 
+## Directory Structure
+```
+lib
+│-- main.dart    
+└───lib
+    └───theme
+    |    │──light_color.dart
+    |    └──theme.dart
+    └────pages
+    |     │──homePage.dart
+    |     └──money_transfer_page.dart 
+    └────widgets
+          │──balance_card.dart
+          |──bottom_navigation_bar.dart
+          │──customRoute.dart
+          └──title_text.dart
+```
 ## Pull Requests
 
 I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request.
@@ -40,7 +57,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-
-
-
-
