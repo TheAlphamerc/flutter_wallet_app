@@ -8,8 +8,8 @@ class AppTheme {
   static ThemeData lightTheme = ThemeData(
     primarySwatch: Colors.blue,
     backgroundColor: LightColor.background,
-    primaryColor: LightColor.navyBlue2,
-    cardTheme: CardTheme(color: LightColor.background),
+    primaryColor: LightColor.navyBlue1,
+    cardTheme: CardTheme(color: LightColor.navyBlue2),
     textTheme: TextTheme(display1: TextStyle(color: LightColor.black)),
     iconTheme: IconThemeData(color: LightColor.navyBlue2),
     bottomAppBarColor: LightColor.background,
