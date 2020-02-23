@@ -2,6 +2,8 @@
 
 Smart course app is a design implementaion of [Wallet App](https://www.instagram.com/p/B81RaSeg7TJ/) designed by [Muhammad Abdull ](https://www.instagram.com/abdulldsgnr/)
 
+## Download App ![GitHub All Releases](https://img.shields.io/github/downloads/Thealphamerc/flutter_wallet_app/total?color=green)
+<a href="https://github.com/TheAlphamerc/flutter_wallet_app/releases/download/v1.0.0/app-release.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 
 <img src="https://instagram.fdel3-2.fna.fbcdn.net/v/t51.2885-15/e35/87413583_202606307464445_5220458549564035004_n.jpg?_nc_ht=instagram.fdel3-2.fna.fbcdn.net&_nc_cat=105&_nc_ohc=DyFDV5NauVUAX_py7Nc&oh=31e2235a62f91ab1a1b68b83f8d7dc88&oe=5E873140"  /> 
 
