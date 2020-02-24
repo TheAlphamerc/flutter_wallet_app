@@ -102,12 +102,17 @@ class _MoneyTransferPageState extends State<MoneyTransferPage> {
   }
 
   Widget _countButton(String text) {
-    return Container(
-      alignment: Alignment.center,
-      child: TitleText(
-        text: text,
-      ),
-    );
+    return Material(
+        child: InkWell(
+            onTap: () {
+              print("Sfsf");
+            },
+            child: Container(
+              alignment: Alignment.center,
+              child: TitleText(
+                text: text,
+              ),
+            )));
   }
 
   @override
@@ -204,14 +209,11 @@ class _MoneyTransferPageState extends State<MoneyTransferPage> {
                 ),
               ),
               Positioned(
-                  left: 20,
-                  top: 50,
+                  left: 0,
+                  top: 40,
                   child: Row(
                     children: <Widget>[
-                      Icon(
-                        Icons.arrow_back,
-                        color: Colors.white,
-                      ),
+                      BackButton(color: Colors.white,),
                       SizedBox(width: 20),
                       TitleText(
                         text: "Transfer",
