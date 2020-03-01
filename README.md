@@ -22,7 +22,7 @@ Smart course app is a design implementaion of [Wallet App](https://www.instagram
 ```
 lib
 │-- main.dart    
-└───lib
+└───src
     └───theme
     |    │──light_color.dart
     |    └──theme.dart
