@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Wallet App',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme.copyWith(
-        textTheme: GoogleFonts.muliTextTheme(
+        textTheme: GoogleFonts.mulishTextTheme(
           Theme.of(context).textTheme,
         ),
       ),
@@ -24,8 +24,8 @@ class MyApp extends StatelessWidget {
           '/transfer': (_) => MoneyTransferPage()
         },
         onGenerateRoute: (RouteSettings settings) {
-          final List<String> pathElements = settings.name.split('/');
-          if (pathElements[0] == '') {
+          final List<String> pathElements = settings.name!.split('/');
+          if (pathElements[0].isEmpty) {
             return null;
           }
           if (pathElements[0] == 'transfer') {

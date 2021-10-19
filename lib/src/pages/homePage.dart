@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_wallet_app/src/theme/light_color.dart';
-import 'package:flutter_wallet_app/src/theme/theme.dart';
 import 'package:flutter_wallet_app/src/widgets/balance_card.dart';
 import 'package:flutter_wallet_app/src/widgets/bottom_navigation_bar.dart';
 import 'package:flutter_wallet_app/src/widgets/title_text.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({Key key}) : super(key: key);
+  HomePage({Key? key}) : super(key: key);
 
   @override
   _HomePageState createState() => _HomePageState();
@@ -24,7 +23,7 @@ class _HomePageState extends State<HomePage> {
         SizedBox(width: 15),
         TitleText(text: "Hello,"),
         Text(' Janth,',
-            style: GoogleFonts.muli(
+            style: GoogleFonts.mulish(
                 fontSize: 18,
                 fontWeight: FontWeight.w600,
                 color: LightColor.navyBlue2)),
@@ -75,8 +74,8 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
         Text(text,
-            style: GoogleFonts.muli(
-                textStyle: Theme.of(context).textTheme.display1,
+            style: GoogleFonts.mulish(
+                textStyle: Theme.of(context).textTheme.headline4,
                 fontSize: 15,
                 fontWeight: FontWeight.w600,
                 color: Color(0xff76797e))),
@@ -120,7 +119,7 @@ class _HomePageState extends State<HomePage> {
             borderRadius: BorderRadius.all(Radius.circular(10)),
           ),
           child: Text('-20 MLR',
-              style: GoogleFonts.muli(
+              style: GoogleFonts.mulish(
                   fontSize: 12,
                   fontWeight: FontWeight.bold,
                   color: LightColor.navyBlue2))),

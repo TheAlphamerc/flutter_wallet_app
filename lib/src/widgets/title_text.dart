@@ -7,15 +7,15 @@ class TitleText extends StatelessWidget {
   final double fontSize;
   final Color color;
   const TitleText(
-      {Key key,
-      this.text,
+      {Key? key,
+      this.text = '',
       this.fontSize = 18,
       this.color = LightColor.navyBlue2})
       : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Text(text,
-        style: GoogleFonts.muli(
+        style: GoogleFonts.mulish(
             fontSize: fontSize, fontWeight: FontWeight.w800, color: color));
   }
 }

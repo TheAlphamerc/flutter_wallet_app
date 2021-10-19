@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_wallet_app/src/theme/light_color.dart';
 
 class BottomNavigation extends StatelessWidget {
-  const BottomNavigation({Key key}) : super(key: key);
+  const BottomNavigation({Key? key}) : super(key: key);
   BottomNavigationBarItem _icons(IconData icon){
     return BottomNavigationBarItem(
       icon: Icon(icon,),
-      title: Text('')
+      label: ''
     );
   }
   @override
