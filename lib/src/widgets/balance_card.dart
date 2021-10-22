@@ -3,7 +3,7 @@ import 'package:flutter_wallet_app/src/theme/light_color.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class BalanceCard extends StatelessWidget {
-  const BalanceCard({Key key}) : super(key: key);
+  const BalanceCard({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -34,8 +34,8 @@ class BalanceCard extends StatelessWidget {
                       children: <Widget>[
                         Text(
                           '6,354',
-                          style: GoogleFonts.muli(
-                              textStyle: Theme.of(context).textTheme.display1,
+                          style: GoogleFonts.mulish(
+                              textStyle: Theme.of(context).textTheme.headline4,
                               fontSize: 35,
                               fontWeight: FontWeight.w800,
                               color: LightColor.yellow2),
@@ -54,8 +54,8 @@ class BalanceCard extends StatelessWidget {
                       children: <Widget>[
                         Text(
                           'Eq:',
-                          style: GoogleFonts.muli(
-                              textStyle: Theme.of(context).textTheme.display1,
+                          style: GoogleFonts.mulish(
+                              textStyle: Theme.of(context).textTheme.headline4,
                               fontSize: 15,
                               fontWeight: FontWeight.w600,
                               color: LightColor.lightNavyBlue),

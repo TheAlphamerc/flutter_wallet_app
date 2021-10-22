@@ -3,7 +3,7 @@ import 'package:flutter_wallet_app/src/theme/light_color.dart';
 import 'package:flutter_wallet_app/src/widgets/title_text.dart';
 
 class MoneyTransferPage extends StatefulWidget {
-  MoneyTransferPage({Key key}) : super(key: key);
+  MoneyTransferPage({Key? key}) : super(key: key);
 
   @override
   _MoneyTransferPageState createState() => _MoneyTransferPageState();
